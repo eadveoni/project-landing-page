@@ -4,12 +4,14 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 .quarter {
     background-color: rgb(255, 255, 255);
     height: 650px;
     display: flex;
     flex-direction: column;
 }
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -81,6 +83,7 @@ body {
 
 .second {
     flex-direction: column;
+    height: 450px;
 }
 
 .info_boxes {
@@ -115,4 +118,27 @@ body {
     width: 150px;
     gap: 10px;
     text-align: center;
+}
+
+.third {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    opacity: 0.5;
+    width: 700px;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.reference {
+    font-weight: bolder;
+    align-self: flex-end;
+    padding-right: 160px;
 }
