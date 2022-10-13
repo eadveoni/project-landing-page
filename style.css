@@ -21,6 +21,15 @@ body {
     align-items: center;
 }
 
+.footer {
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo {
     color: #F9FAF8;
     font-size: 24px;
